@@ -55,6 +55,3 @@ java ThirdApp
 ## Лицензия
 
 Проект распространяется под лицензией MIT.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/126873/0f36b430-71bc-4ff0-93d1-a28602a1fb75/Код проекта ThreadMaster.txt
