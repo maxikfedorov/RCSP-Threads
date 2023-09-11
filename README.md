@@ -1,18 +1,5 @@
-## Getting Started
+README файл предназначен для описания проекта и его использования. В данном случае, проект состоит из трех приложений на языке Java: FirstApp, SecondApp и ThirdApp. FirstApp - приложение для поиска максимального элемента в массиве. Представляет собой консольное приложение, которое запускается из командной строки. Приложение имеет три метода: generateRandomArray, findMaxSequentially и findMaxWithThreads. Метод generateRandomArray генерирует случайный массив заданного размера. Метод findMaxSequentially находит максимальный элемент последовательно. Метод findMaxWithThreads находит максимальный элемент с использованием многопоточности. Приложение выводит результаты работы методов в консоль. SecondApp - приложение для возведения числа в квадрат с задержкой. Представляет собой консольное приложение, которое запускается из командной строки. Приложение запрашивает у пользователя число и создает Future для результата выполнения задачи в потоке ExecutorService. Приложение генерирует случайную задержку от 1 до 5 секунд, возводит число в квадрат и возвращает результат. Приложение выводит результат в консоль. ThirdApp - приложение для генерации файлов и их обработки в очереди. Представляет собой консольное приложение, которое запускается из командной строки. Приложение создает ExecutorService с фиксированным пулом потоков из двух потоков. Приложение создает очередь и компоненты системы: генератор и обработчик. Генератор генерирует файлы и добавляет их в очередь. Обработчик извлекает файлы из очереди и обрабатывает их. Приложение останавливает генератор и обработчик через 10 секунд. Приложение выводит результаты работы в консоль. Для запуска приложений необходимо иметь установленную Java Virtual Machine (JVM) и выполнить следующие шаги:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Скомпилировать исходный код приложения с помощью компилятора javac.
+Запустить скомпилированный файл с помощью команды java.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
